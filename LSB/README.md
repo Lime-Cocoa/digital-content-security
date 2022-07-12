@@ -51,7 +51,7 @@ end
 
 LSB.m
 
-```natlab
+```matlab
 function  piccover = LSB( piccover,pic2ray,M,N,m,n ) %piccover封面，pic2ray二值图，M,N封面行列，m，n二值图行列
 if(m<=M&&n<=N)
     for i=1:m
